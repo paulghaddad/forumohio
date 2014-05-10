@@ -1,9 +1,43 @@
-// Common mixins
+.main-header {
 
-@mixin image-replacement-text {
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
+  background: url(../../img/build/headerimage.jpg) center top no-repeat;
+  @include bp(beta) {
+    background-position: left top;
+  }
+
+  h1 {
+    @include image-replacement-text;
+    background: url(../../img/build/forum_logo.png) left top no-repeat;
+    width: 135px;
+    height: 106px;
+    @include bp(beta) {
+      left: 40px;
+      position: relative;
+      top: 20px;
+    }
+  }
+
+  h2 {
+    color: $white;
+    @include font(header);
+    margin-top: 3rem;
+    @include bp(beta) {
+      margin-top: 5rem;
+    }
+  }
+
+  p {
+    color: $olive-green;
+    margin-top: 2rem;
+  }
+
+  h2, p {
+    max-width: 50rem;
+    @include bp(beta) {
+      margin-left: 7rem;
+      margin-right: 1rem;
+    }
+  }
 }
 
 

@@ -1,0 +1,32 @@
+.main-section {
+  background: $olive-green;
+
+  .info-box-wrap {
+      max-width: 50rem;
+      .info-box {
+        padding-right: 0;
+        p {
+          margin-left: 80px;
+        }
+      }
+      .info-box:nth-of-type(1) {
+        background: url(../../img/build/image1.png) left 1em no-repeat;
+        padding-right: $pad;
+      }
+      .info-box:nth-of-type(2) {
+        background: url(../../img/build/image2.png) left 1em no-repeat;
+      }
+      .info-box:nth-of-type(3) {
+        background: url(../../img/build/image3.png) left 1em no-repeat;
+        padding-right: $pad;
+      }
+      .info-box:nth-of-type(4) {
+        background: url(../../img/build/image4.png) left 1em no-repeat;
+      }
+  }
+
+  p {
+    color: $dark-green;
+  }
+}
+

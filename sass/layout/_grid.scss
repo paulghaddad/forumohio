@@ -1,5 +1,5 @@
 body {
-  //min-width: 22rem; // Set if a min-width is needed
+  min-width: 22rem; // Set if a min-width is needed
 }
 
 //Float all columns to the left
@@ -12,15 +12,31 @@ body {
     padding-right: 0;
   }
 }
-
 .grid-pad {
-  padding: $pad;
+  padding: $grid-pad;
   
   // padding values of grid elements
-  > section, > footer {
-      padding: $pad 5% $pad*2 5%;
+  > header, > section {
+      padding: $pad;
+  }
+  > footer {
+    padding: $pad/2 $pad;
+    @include bp(beta) {
+      padding: $pad / 4;
+    }
   }
 
+  .main-section {
+    @include bp(beta) {
+      padding-left: 8rem;
+    }
+  }
+
+  footer {
+    @include bp(beta) {
+      padding-left: 8rem;
+    }
+  }
 }
 
 //Column widths
