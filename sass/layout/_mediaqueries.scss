@@ -1,9 +1,9 @@
 @mixin bp($point) {
   
-  $bp-alpha: "(min-width: 20rem)";
-  $bp-beta: "(min-width: 30rem)";
-  $bp-gamma: "(min-width: 35rem)";
-  $bp-delta: "(min-width: 45rem)";
+  $bp-alpha: "(min-width: 20em)";
+  $bp-beta: "(min-width: 30em)";
+  $bp-gamma: "(min-width: 35em)";
+  $bp-delta: "(min-width: 45em)";
 
   @if $point == alpha {
     @media #{$bp-alpha} { @content; }

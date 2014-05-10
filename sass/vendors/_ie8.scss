@@ -1,40 +1,22 @@
 .lt-ie9 {
   // Variables
+
   $pad: 2em;
 
   // grid
+  
   body {
     min-width: 22em; 
   }
 
-  // Mediaqueries
-
-  @mixin bp($point) {
-  
-    $bp-alpha: "(min-width: 20em)";
-    $bp-beta: "(min-width: 30em)";
-    $bp-gamma: "(min-width: 35em)";
-    $bp-delta: "(min-width: 45em)";
-
-    @if $point == alpha {
-      @media #{$bp-alpha} { @content; }
-    }
-    @else if $point == beta {
-      @media #{$bp-beta} { @content; }
-    }
-    @else if $point == gamma {
-      @media #{$bp-gamma} { @content; }
-    }
-    @else {
-      @media #{$bp-delta}  { @content; }
-    }
-  }
-
-  // Header
-
   .col-1-2 {
     width: 50%;
   }
+
+
+
+  // Header
+
   .main-header {
     h2 {
       margin-top: 3em;
