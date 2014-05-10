@@ -6,6 +6,9 @@
       .info-box {
         p {
           margin-left: 80px;
+          @include bp(beta) {
+            @include font-size(.9);
+          }
         }
       }
       .info-box:nth-of-type(1) {
