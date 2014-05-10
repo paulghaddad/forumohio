@@ -27,13 +27,13 @@ body {
 
   .main-section {
     @include bp(beta) {
-      padding-left: 8rem;
+      padding-left: $pad * 4;
     }
   }
 
   footer {
     @include bp(beta) {
-      padding-left: 8rem;
+      padding-left: $pad * 4;
     }
   }
 }
