@@ -9,11 +9,10 @@ body {
   
   // except the right-most column has no right padding
   .grid-pad &:last-of-type {
-    padding-right: 0;
+    padding-right: $pad;
   }
 }
 .grid-pad {
-  padding: $grid-pad;
   
   // padding values of grid elements
   > header, > section {
