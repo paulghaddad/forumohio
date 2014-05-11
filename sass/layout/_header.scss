@@ -1,6 +1,7 @@
 .main-header {
 
   background: url(../../img/build/headerimage.jpg) center top no-repeat;
+  background-size: cover;
   @include bp(beta) {
     background-position: left top;
   }
