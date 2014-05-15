@@ -11,16 +11,20 @@
     background: url(../../img/build/forum_logo.png) left top no-repeat;
     width: 135px;
     height: 106px;
+    background-size: 80%;
+    margin: 0;
     @include bp(beta) {
+      margin: .67em 0;
       position: relative;
       top: 20px;
+      background-size: 100%;
     }
   }
 
   h2 {
     color: $white;
     @include font(header);
-    margin-top: 3rem;
+    margin-top: .5rem;
     @include bp(beta) {
       margin-top: 5rem;
     }
@@ -33,7 +37,7 @@
   }
 
   h2, p {
-    max-width: 50rem;
+    max-width: 45rem;
     @include bp(beta) {
       margin-left: 7rem;
       margin-right: 1rem;

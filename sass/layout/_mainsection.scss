@@ -3,11 +3,18 @@
 
   .info-box-wrap1, .info-box-wrap2 {
       max-width: 50rem;
+      @include bp(beta) {
+        margin-left: 6rem;
+      }
       .info-box {
         p {
-          margin-left: 80px;
+          //margin-left: 80px;
           @include bp(beta) {
             @include font-size(.9);
+          }
+          img {
+            float: left;
+            margin: 5px 15px 4px 0;
           }
         }
       }
@@ -15,19 +22,19 @@
 
   .info-box-wrap1 {
     .info-box:nth-of-type(1) {
-      background: url(../../img/build/image1.png) left 1em no-repeat;
+      //background: url(../../img/build/image1.png) left 1em no-repeat;
     }
     .info-box:nth-of-type(2) {
-      background: url(../../img/build/image2.png) left 1em no-repeat;
+      //background: url(../../img/build/image2.png) left 1em no-repeat;
     }
   }
 
   .info-box-wrap2 {
     .info-box:nth-of-type(1) {
-      background: url(../../img/build/image3.png) left 1em no-repeat;
+      //background: url(../../img/build/image3.png) left 1em no-repeat;
     }
     .info-box:nth-of-type(2) {
-      background: url(../../img/build/image4.png) left 1em no-repeat;
+      //background: url(../../img/build/image4.png) left 1em no-repeat;
     }
   }
 

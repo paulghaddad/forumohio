@@ -13,6 +13,11 @@ body {
   }
 }
 .grid-pad {
+
+  .wrapper {
+    max-width: 60rem;
+    margin: 0 auto;
+  }
   
   // padding values of grid elements
   > header, > section {
@@ -22,12 +27,6 @@ body {
     padding: $pad/2 $pad;
     @include bp(beta) {
       padding: $pad / 4;
-    }
-  }
-
-  .main-section {
-    @include bp(beta) {
-      padding-left: $pad * 4;
     }
   }
 

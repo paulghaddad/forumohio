@@ -13,6 +13,9 @@
     width: 50%;
   }
 
+.grid-pad .wrapper {
+  max-width: 60em;
+}
 
 
   // Header
@@ -27,14 +30,14 @@
     }
 
     p {
-      margin-top: 2em;
+      margin-top: .5em;
       @include bp(beta) {
         margin-left: 5em;
       }
     }
 
     h2, p {
-      max-width: 50em;
+      max-width: 45em;
       @include bp(beta) {
         margin-right: 1em;
       }
@@ -47,6 +50,7 @@
 
     .info-box-wrap1, .info-box-wrap2 {
         max-width: 50em;
+        margin-left: 6em;
     }
 
     .info-box-wrap1 {
