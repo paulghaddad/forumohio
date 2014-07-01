@@ -41,5 +41,9 @@
   p {
     color: $dark-green-text;
   }
+
+  .subpage & .wrapper {
+    max-width: 50rem;
+  }
 }
 

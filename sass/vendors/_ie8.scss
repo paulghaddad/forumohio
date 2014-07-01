@@ -42,6 +42,12 @@
         margin-right: 1em;
       }
     }
+
+    .subpage & {
+      @include bp(beta) {
+        min-height: 16rem;
+      }
+    }
   }
 
   // Main Section 
@@ -69,6 +75,10 @@
       .info-box:last-child {
         background: url(../../img/build/image4.png) left 1em no-repeat;
       }
+    }
+
+    .subpage & .wrapper {
+      max-width: 50rem;
     }
   }
 
