@@ -1,0 +1,15 @@
+.subpage {
+
+  .main-section {
+
+    h1 {
+      @include font(header);
+    }
+
+    p {
+      @include bp(beta) {
+        @include font-size(0.9);
+      }
+    }
+  }
+}

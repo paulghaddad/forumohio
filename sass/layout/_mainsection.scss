@@ -43,7 +43,9 @@
   }
 
   .subpage & .wrapper {
-    max-width: 50rem;
+    @include bp(beta) {
+        margin: 0 6rem;
+    }
   }
 }
 
