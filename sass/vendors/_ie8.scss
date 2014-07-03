@@ -79,19 +79,8 @@
 
     .subpage & .wrapper {
       @include bp(beta) {
-          margin: 0 6rem;
+          padding: 0 6rem;
       }
     }
-  }
-
-  .subpage {
-    .grid-pad {
-
-      .wrapper {
-        max-width: 160rem;
-      }
-    }
-  }
-
-    
+  } 
 }

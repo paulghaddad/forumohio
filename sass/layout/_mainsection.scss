@@ -44,7 +44,7 @@
 
   .subpage & .wrapper {
     @include bp(beta) {
-        margin: 0 6rem;
+        padding: 0 6rem;
     }
   }
 }
