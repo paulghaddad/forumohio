@@ -1,0 +1,39 @@
+.about {
+
+  .bio {
+    
+    &:first-of-type {
+      margin-bottom: 4em;
+    }
+
+    h2 {
+      @include font-size(1.1);
+      line-height: 1.1;
+      margin-bottom: .2em;
+    }
+
+    h3 {
+      @include font-size(1);
+      line-height: 1.1;
+      margin: 0;
+
+      a {
+        color: black;
+        text-decoration: none;
+        font-weight: normal;
+        &:hover, &:focus {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    img {
+      @include bp(delta) {
+        float: left;
+      }
+
+      margin: 0 1.5em 0.25em 0;
+    }
+  }
+
+}
