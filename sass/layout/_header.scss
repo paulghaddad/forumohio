@@ -45,7 +45,7 @@
   }
   
   .subpage & {
-    background: url(../../img/build/headerimage_subpage.jpg) left top no-repeat;
+    background: url(../../img/build/headerimage_subpage.jpg) center no-repeat;
     @include bp(beta) {
       min-height: 16rem;
     }
