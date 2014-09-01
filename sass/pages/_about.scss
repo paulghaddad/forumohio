@@ -34,6 +34,15 @@
 
       margin: 0 1.5em 0.25em 0;
     }
+
+    a {
+      text-decoration: underline;
+      font-weight: bold;
+      &:hover, &:focus {
+          text-decoration: none;
+      }
+      color: black;
+    }
   }
 
 }
