@@ -28,26 +28,12 @@
         <div class="grid grid-pad">
             
             <header class="main-header" role="banner">
-                <div class="wrapper">
+                
+                <div class="wrapper" id="confirmed">
                     <h1>Forum Ohio</h1>
-                    <h2>Send a Message</h2>
-                    <form action="mail_handler.php" method="post">
+                    <p class="confirmation">Thank you for your message! We will contact you soon.</p>
 
-                        <fieldset>
-                          <label for="name">Your name</label>
-                          <input type="text" name="name" id="name" required >
-                          
-                          <label for="email">Your email address</label>
-                          <input type="email" name="email" id="email" required >
-                          
-                          <label for="message">Enter your message</label>
-                          <textarea name="message" id="message" cols="25" rows="5" required ></textarea>
-                          
-                          <input type="submit" name="submit" value="Submit Form" id="submit-button">
-                        </fieldset>
-
-                    </form>
-                </div>
+                <div>
             </header>
 
             <!-- <div>
@@ -66,7 +52,6 @@
                             <p>20 S. Third Street, Suite 210</p>
                             <p>Columbus, OH 43215</p>
 
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x88388f33cb303d71%3A0x1f0ed6ec30bf5c68!2s20+S+3rd+St+%23210%2C+Columbus%2C+OH+43215%2C+USA!5e0!3m2!1sen!2s!4v1390052901769" frameborder="0" style="border:0"></iframe>
                         </div>
 
                         <div class="info-box col-1-2">
@@ -76,6 +61,8 @@
                             <h3>Fax</h3>
                             <p>(614) 895-6801</p>
                         </div>
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6116.151148580256!2d-82.99740399999999!3d39.962063!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88388f33cb303d71%3A0x1f0ed6ec30bf5c68!2s20+S+3rd+St+%23210%2C+Columbus%2C+OH+43215!5e0!3m2!1sen!2sus!4v1409141288160" width="500" height="300" frameborder="0" style="border:0"></iframe>
                     </div>
                     
                 </div>
