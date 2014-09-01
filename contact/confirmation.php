@@ -31,6 +31,14 @@
                 
                 <div class="wrapper" id="confirmed">
                     <h1>Forum Ohio</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="../about" title="About Us">About Us</a></li>
+                            <li><a href="../psychology" title="Services">Services</a></li>
+                            <li><a href="../contact" title="Contact" class="current">Contact</a></li>
+                            <li><a href="../legal" title="legal">Legal</a></li>
+                        </ul>
+                    </nav>
                     <p class="confirmation">Thank you for your message! We will contact you soon.</p>
 
                 <div>

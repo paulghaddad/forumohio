@@ -30,6 +30,14 @@
             <header class="main-header" role="banner">
                 <div class="wrapper">
                     <h1>Forum Ohio</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="../about" title="About Us">About Us</a></li>
+                            <li><a href="../psychology" title="Services">Services</a></li>
+                            <li><a href="../contact" title="Contact" class="current">Contact</a></li>
+                            <li><a href="../legal" title="legal">Legal</a></li>
+                        </ul>
+                    </nav>
                     
                     <form action="mail_handler.php" method="post">
                     <h3>Send a Message</h3>
