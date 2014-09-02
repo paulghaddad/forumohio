@@ -30,7 +30,7 @@
             <header class="main-header" role="banner">
                 
                 <div class="wrapper" id="confirmed">
-                    <h1>Forum Ohio</h1>
+                    <a href="/" title="home"><h1>Forum Ohio</h1></a>
                     <nav>
                         <ul>
                             <li><a href="../about" title="About Us">About Us</a></li>

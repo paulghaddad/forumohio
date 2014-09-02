@@ -29,7 +29,7 @@
             
             <header class="main-header" role="banner">
                 <div class="wrapper">
-                    <h1>Forum Ohio</h1>
+                    <a href="/" title="home"><h1>Forum Ohio</h1></a>
                     <nav>
                         <ul>
                             <li><a href="../about" title="About Us">About Us</a></li>
@@ -40,7 +40,7 @@
                     </nav>
                     
                     <form action="mail_handler.php" method="post">
-                    <h3>Send a Message</h3>
+                        <h3>Send a Message</h3>
                         <fieldset>
                           <label for="name">Your name *</label>
                           <input type="text" name="name" id="name" required >
@@ -68,26 +68,26 @@
 
             <div class="wrapper">
                 
-                    <div class="info-box-wrap1 clearfix">
-                        <div class="info-box col-1-2">
-                            <h3>Address</h3>
-                            <p>20 S. Third Street, Suite 210</p>
-                            <p>Columbus, OH 43215</p>
+                <div class="info-box-wrap1 clearfix">
+                    <div class="info-box col-1-2">
+                        <h3>Address</h3>
+                        <p>20 S. Third Street, Suite 210</p>
+                        <p>Columbus, OH 43215</p>
 
-                        </div>
-
-                        <div class="info-box col-1-2">
-                            <h3>Phone</h3>
-                            <p>(614) 309-9727</p>
-
-                            <h3>Fax</h3>
-                            <p>(614) 895-6801</p>
-                        </div>
-
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6116.151148580256!2d-82.99740399999999!3d39.962063!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88388f33cb303d71%3A0x1f0ed6ec30bf5c68!2s20+S+3rd+St+%23210%2C+Columbus%2C+OH+43215!5e0!3m2!1sen!2sus!4v1409141288160" width="500" height="300" frameborder="0" style="border:0"></iframe>
                     </div>
-                    
+
+                    <div class="info-box col-1-2">
+                        <h3>Phone</h3>
+                        <p>(614) 309-9727</p>
+
+                        <h3>Fax</h3>
+                        <p>(614) 895-6801</p>
+                    </div>
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6116.151148580256!2d-82.99740399999999!3d39.962063!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88388f33cb303d71%3A0x1f0ed6ec30bf5c68!2s20+S+3rd+St+%23210%2C+Columbus%2C+OH+43215!5e0!3m2!1sen!2sus!4v1409141288160" width="500" height="300" frameborder="0" style="border:0"></iframe>
                 </div>
+                
+            </div>
 
 
             </section>            

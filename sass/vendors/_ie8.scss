@@ -13,9 +13,9 @@
     width: 50%;
   }
 
-.grid-pad .wrapper {
-  max-width: 60em;
-}
+  .grid-pad .wrapper {
+    max-width: 60em;
+  }
 
 
   // Header
@@ -82,5 +82,39 @@
           padding: 0 6rem;
       }
     }
+  }
+
+  // Footer 
+
+  footer {
+    @include bp(beta) {
+      padding-left: 0;
+    }
+  }
+
+  // About page
+
+  .about .bio {
+    margin-bottom: 4em;
   } 
+
+  // Contact page
+
+  .contact {
+
+    fieldset {
+      width: 60%;
+    }
+
+    .info-box-wrap1 {
+      width: 60%;
+      margin: 0 auto;
+    }
+
+    .info-box-wrap1 {
+      .info-box:first-child {
+        background: none;
+      }
+    }
+  }
 }
