@@ -1,5 +1,6 @@
-
-
+$("nav select").change(function() {
+  window.location = $(this).find("option:selected").val();
+});
 // Avoid `console` errors in browsers that lack a console.
 (function() {
     var method;
