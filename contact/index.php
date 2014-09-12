@@ -37,6 +37,16 @@
                             <li><a href="../contact" title="Contact" class="current">Contact</a></li>
                             <li><a href="../legal" title="legal">Legal</a></li>
                         </ul>
+
+                        <select> 
+                            <option value="" selected="selected">Select Page</option> 
+                            
+                            <option value="/">Home</option> 
+                            <option value="/about">About Us</option> 
+                            <option value="/psychology">Services</option> 
+                            <option value="/contact">Contact</option> 
+                            <option value="/legal">Legal</option> 
+                        </select>
                     </nav>
                     
                     <form action="mail_handler.php" method="post">
