@@ -32,6 +32,7 @@
                     <a href="/" title="home"><h1>Forum Ohio</h1></a>
                     <nav>
                         <ul>
+                            <li><a href="/" title="Home">Home</a></li>
                             <li><a href="../about" title="About Us">About Us</a></li>
                             <li><a href="../psychology" title="Services">Services</a></li>
                             <li><a href="../contact" title="Contact" class="current">Contact</a></li>
@@ -88,7 +89,7 @@
 
                     <div class="info-box col-1-2">
                         <h3>Phone</h3>
-                        <p>(614) 309-9727</p>
+                        <p>(614) 636-4779</p>
 
                         <h3>Fax</h3>
                         <p>(614) 895-6801</p>
