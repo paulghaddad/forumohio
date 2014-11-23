@@ -1,9 +1,10 @@
 .about {
 
   .bio {
-    
-    &:first-of-type {
-      margin-bottom: 4em;
+    margin-bottom: 4em;
+
+    &:last-of-type {
+      margin-bottom: 1em;
     }
 
     h2 {
