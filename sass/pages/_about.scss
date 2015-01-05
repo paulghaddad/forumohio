@@ -1,11 +1,6 @@
 .about {
 
-  .bio {
-    margin-bottom: 4em;
-
-    &:last-of-type {
-      margin-bottom: 1em;
-    }
+  .bio, .top-bio {
 
     h2 {
       @include font-size(1.1);
@@ -49,4 +44,27 @@
     }
   }
 
+  .bio {
+    margin-bottom: 4em;
+
+    &:last-of-type {
+      margin-bottom: 1em;
+    }
+  }
+
+  .top-bio {
+    width: 100%;
+    margin-bottom: 4em;
+    @media (min-width: 65em) {
+      width: 50%;
+      float: left;
+      padding-right: $pad/2;
+      &:last-of-type {
+        padding-right: 0;
+      }
+      h3 {
+        font-size: 0.9em;
+      }
+    } 
+  }
 }
