@@ -47,7 +47,8 @@
                             <option value="/about">About Us</option> 
                             <option value="/psychology">Services</option> 
                             <option value="/contact">Contact</option> 
-                            <option value="/legal">Legal</option> 
+                            <option value="/legal">Legal</option>
+                            <option value="/jobs">Job Opportunities</option> 
                         </select>
                     </nav>
                     
