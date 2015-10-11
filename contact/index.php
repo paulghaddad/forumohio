@@ -37,6 +37,7 @@
                             <li><a href="../psychology" title="Services">Services</a></li>
                             <li><a href="../contact" title="Contact" class="current">Contact</a></li>
                             <li><a href="../legal" title="legal">Legal</a></li>
+                            <li><a href="../jobs" title="jobs">Job Opportunities</a></li>
                         </ul>
 
                         <select> 
