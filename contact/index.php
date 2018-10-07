@@ -11,14 +11,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <link rel="stylesheet" href="../css/build/main.css">
         <script src="../js/vendor/modernizr.custom.63811.js"></script>
-
-        
-
-        <script type="text/javascript" src="//use.typekit.net/kfv6ezh.js"></script>
-        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     </head>
     <body role="document" class="contact">
         <!--[if lt IE 7]>
@@ -26,7 +21,7 @@
         <![endif]-->
 
         <div class="grid grid-pad">
-            
+
             <header class="main-header" role="banner">
                 <div class="wrapper">
                     <a href="/" title="home"><h1>Forum Ohio</h1></a>
@@ -40,29 +35,29 @@
                             <li><a href="../jobs" title="jobs">Jobs</a></li>
                         </ul>
 
-                        <select> 
-                            <option value="" selected="selected">Select Page</option> 
-                            <option value="/">Home</option> 
-                            <option value="/about">About Us</option> 
-                            <option value="/psychology">Services</option> 
-                            <option value="/contact">Contact</option> 
+                        <select>
+                            <option value="" selected="selected">Select Page</option>
+                            <option value="/">Home</option>
+                            <option value="/about">About Us</option>
+                            <option value="/psychology">Services</option>
+                            <option value="/contact">Contact</option>
                             <option value="/legal">Legal</option>
                             <option value="/jobs">Jobs</option>
                         </select>
                     </nav>
-                    
+
                     <form action="mail_handler.php" method="post">
                         <h3>Send a Message</h3>
                         <fieldset>
                           <label for="name">Your name *</label>
                           <input type="text" name="name" id="name" required >
-                          
+
                           <label for="email">Your email address *</label>
                           <input type="email" name="email" id="email" required >
-                          
+
                           <label for="message">Enter your message *</label>
                           <textarea name="message" id="message" cols="25" rows="5" required ></textarea>
-                          
+
                           <input type="submit" name="submit" value="Submit" id="submit-button">
                         </fieldset>
 
@@ -72,19 +67,19 @@
 
             <!-- <div>
                 <div class="col-2-3">Main Content</div>
-                
+
                 <div class="col-1-3">Secondary Content</div>
             </div> -->
 
             <section class="main-section" role="main">
 
             <div class="wrapper">
-                
+
                 <div class="info-box-wrap1 clearfix">
                     <div class="info-box col-1-2">
                         <h3>Address</h3>
-                        <p>20 S. Third Street, Suite 210</p>
-                        <p>Columbus, OH 43215</p>
+                        <p>454 E. Main Street, Suite 240</p>
+                        <p>Columbus, Ohio 43215</p>
 
                     </div>
 
@@ -93,20 +88,20 @@
                         <p>(614) 636-4779</p>
 
                         <h3>Fax</h3>
-                        <p>(614) 895-6801</p>
+                        <p>(614) 525-0663</p>
                     </div>
 
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6116.151148580256!2d-82.99740399999999!3d39.962063!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88388f33cb303d71%3A0x1f0ed6ec30bf5c68!2s20+S+3rd+St+%23210%2C+Columbus%2C+OH+43215!5e0!3m2!1sen!2sus!4v1409141288160" width="500" height="300" frameborder="0" style="border:0"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.2663338178863!2d-82.98944414936635!3d39.95779769124605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883888cbd9fd469d%3A0x1b6e99d1cebcd2f0!2s454+E+Main+St+%23240%2C+Columbus%2C+OH+43215!5e0!3m2!1sen!2sus!4v1523192135735" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
-                
+
             </div>
 
 
-            </section>            
+            </section>
 
             <footer>
                 <div class="wrapper">
-                    <p>Copyright Forum Ohio LLC 2014</p>
+                    <p>Copyright Forum Ohio LLC 2018</p>
                 </div>
             </footer>
 
@@ -119,7 +114,7 @@
         <!--[if (gte IE 6)&(lte IE 8)]>
           <script type="text/javascript" src="js/vendor/selectivizr-min.js"></script>
         <![endif]-->
-        
+
         <script>
 
             Modernizr.load([
