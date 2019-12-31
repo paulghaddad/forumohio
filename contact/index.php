@@ -101,7 +101,7 @@
 
             <footer>
                 <div class="wrapper">
-                    <p>Copyright Forum Ohio LLC 2019</p>
+                    <p>Copyright Forum Ohio LLC 2020</p>
                 </div>
             </footer>
 
