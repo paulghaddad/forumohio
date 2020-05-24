@@ -55,9 +55,37 @@
                     <h1>Training</h1>
 
                     <h2>Test Webinar</h2>
+
                     <p>June 5, 2020 at 10:00AM EDT<p/>
-                    <p><a
-                      href="https://www.eventbrite.com/e/forumohio-test-webinar-tickets-106570053900">Click here to sign up for the webinar.</a></p>
+                    <!-- Noscript content for added SEO -->
+                    <noscript><a
+                                href="https://www.eventbrite.com/e/forumohio-test-webinar-tickets-106570053900"
+                                rel="noopener noreferrer"
+                                target="_blank"></noscript>
+                    <!-- You can customize this button any way you like -->
+                    <button id="eventbrite-widget-modal-trigger-106570053900"
+                      type="button">Buy Tickets</button>
+                    <noscript></a>Buy Tickets on Eventbrite</noscript>
+
+                    <script
+                      src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+                      <script type="text/javascript">
+                            var exampleCallback = function() {
+                                      console.log('Order complete!');
+                                  };
+
+                                window.EBWidgets.createWidget({
+                                          widgetType: 'checkout',
+                                          eventId: '106570053900',
+                                          modal: true,
+                                          modalTriggerElementId:
+                                  'eventbrite-widget-modal-trigger-106570053900',
+                                          onOrderComplete: exampleCallback
+                                      });
+                      </script>
+                    <!-- <p><a -->
+                    <!--   href="https://www.eventbrite.com/e/forumohio&#45;test&#45;webinar&#45;tickets&#45;106570053900">Click here to sign up for the webinar.</a></p> -->
 
                 </div>
 
