@@ -14,6 +14,7 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <link rel="stylesheet" href="../css/build/main.css">
         <script src="../js/vendor/modernizr.custom.63811.js"></script>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     </head>
     <body role="document" class="contact">
         <!--[if lt IE 7]>
@@ -33,6 +34,7 @@
                             <li><a href="../contact" title="Contact" class="current">Contact</a></li>
                             <li><a href="../legal" title="legal">Legal</a></li>
                             <li><a href="../jobs" title="jobs">Jobs</a></li>
+                            <li><a href="../training" title="training">Training</a></li>
                         </ul>
 
                         <select>
@@ -43,6 +45,7 @@
                             <option value="/contact">Contact</option>
                             <option value="/legal">Legal</option>
                             <option value="/jobs">Jobs</option>
+                            <option value="/training">Training</option>
                         </select>
                     </nav>
 
@@ -58,9 +61,10 @@
                           <label for="message">Enter your message *</label>
                           <textarea name="message" id="message" cols="25" rows="5" required ></textarea>
 
-                          <input type="submit" name="submit" value="Submit" id="submit-button">
-                        </fieldset>
+                          <div class="g-recaptcha" data-sitekey="6LfqWFkaAAAAAOTb7N4IrGrNiTdboheyJeEHVJew" data-callback="enableBtn"></div>
 
+                          <input type="submit" name="submit" value="Submit" id="submit-button" disabled>
+                        </fieldset>
                     </form>
                 </div>
             </header>
@@ -138,6 +142,12 @@
           ga('create', 'UA-48144020-2', 'auto');
           ga('send', 'pageview');
 
+        </script>
+
+        <script>
+          function enableBtn(){
+            document.getElementById("submit-button").disabled = false;
+          }
         </script>
 
     </body>
